@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebAppWebBanHang.Application\WebAppWebBanHang.Application.csproj" />
+    <ProjectReference Include="..\WebAppWebBanHang.Data.EF\WebAppWebBanHang.Data.EF.csproj" />
+    <ProjectReference Include="..\WebAppWebBanHang.Data\WebAppWebBanHang.Data.csproj" />
+    <ProjectReference Include="..\WebAppWebBanHang.Infrastructure1\WebAppWebBanHang.Infrastructure1.csproj" />
+    <ProjectReference Include="..\WebAppWebBanHang.Utilities\WebAppWebBanHang.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementations\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebAppWebBanHang.Data.EF\WebAppWebBanHang.Data.EF.csproj" />
+    <ProjectReference Include="..\WebAppWebBanHang.Data\WebAppWebBanHang.Data.csproj" />
+    <ProjectReference Include="..\WebAppWebBanHang.Utilities\WebAppWebBanHang.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
